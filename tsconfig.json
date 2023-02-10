@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "outDir": "build/js",
+    "allowJs": true,
+    "checkJs": true,
+    "noUnusedLocals": true
+  }
+}
