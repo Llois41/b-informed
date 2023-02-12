@@ -1,11 +1,22 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "module": "nodenext",
-    "moduleResolution": "nodenext",
+    "module": "esnext",
+    "moduleResolution": "bundler",
     "outDir": "build/js",
-    "allowJs": true,
-    "checkJs": true,
-    "noUnusedLocals": true
-  }
+    "noUnusedLocals": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "typeRoots": ["src/@types"],
+    "types": []
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.js",
+    "**/.*.js",
+    "**/*.mjs",
+    "**/*.json",
+    "**/*.vue",
+  ]
 }
