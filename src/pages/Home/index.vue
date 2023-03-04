@@ -1,3 +1,6 @@
+<script setup lang="ts">
+</script>
+
 <template>
-  Welcome to HomePage
+  <h1>Welcome to HomePage</h1>
 </template>
