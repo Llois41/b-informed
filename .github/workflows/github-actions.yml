@@ -1,0 +1,19 @@
+name: GitHub Actions Demo
+env:
+  NODE_VERSION: 18.16.0
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on: [push]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+      - name: Setup Node with version ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      - name: Test app
+        run: yarn test
