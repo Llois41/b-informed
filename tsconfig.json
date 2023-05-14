@@ -9,14 +9,8 @@
     "noEmit": true,
     "esModuleInterop": true,
     "typeRoots": ["src/@types"],
-    "types": []
+    "types": [],
+    "strict": true
   },
-  "include": [
-    "**/*.ts",
-    "**/*.js",
-    "**/.*.js",
-    "**/*.mjs",
-    "**/*.json",
-    "**/*.vue",
-  ]
+  "include": ["**/*.ts", "**/*.js", "**/.*.js", "**/*.mjs", "**/*.json", "**/*.vue"]
 }
