@@ -4,16 +4,19 @@
   "type": "module",
   "packageManager": "yarn@3.5.1",
   "scripts": {
+    "dev": "vite serve",
     "test": "vitest"
   },
   "dependencies": {
-    "vue": "3.2.47",
-    "vue-router": "4.1.6"
+    "@auth0/auth0-vue": "2.2.0",
+    "vue": "3.3.2",
+    "vue-router": "4.2.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "4.2.1",
+    "@vitejs/plugin-vue": "4.2.3",
     "@vue/test-utils": "2.3.2",
     "jsdom": "22.0.0",
+    "prettier": "2.8.8",
     "typescript": "5.0.4",
     "vite": "4.3.5",
     "vitest": "0.31.0"
