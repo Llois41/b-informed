@@ -3,5 +3,5 @@ import { routes } from './routes.ts';
 
 export const router = createRouter({
   history: createWebHistory(),
-  routes: Array.from(routes().values()),
+  routes: Array.from(Object.values(routes)),
 });

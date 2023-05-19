@@ -10,7 +10,8 @@
     "esModuleInterop": true,
     "typeRoots": ["src/@types"],
     "types": [],
-    "strict": true
+    "strict": true,
+    "skipLibCheck": true
   },
   "include": ["**/*.ts", "**/*.js", "**/.*.js", "**/*.mjs", "**/*.json", "**/*.vue"]
 }
