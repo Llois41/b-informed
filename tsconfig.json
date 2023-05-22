@@ -9,7 +9,6 @@
     "noEmit": true,
     "esModuleInterop": true,
     "typeRoots": ["src/@types"],
-    "types": [],
     "strict": true,
     "skipLibCheck": true
   },

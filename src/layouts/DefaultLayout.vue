@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { getPathForRoute } from '../router/routes.ts';
+import AuthButton from '../components/AuthButton.vue';
 </script>
 
 <template>
@@ -7,6 +8,7 @@ import { getPathForRoute } from '../router/routes.ts';
     <nav class="LayoutDefault__nav">
       <router-link :to="getPathForRoute('home')">Home</router-link>
       <router-link :to="getPathForRoute('about')">About</router-link>
+      <AuthButton />
     </nav>
     <main class="LayoutDefault__main">
       <slot />
