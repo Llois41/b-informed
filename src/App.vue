@@ -6,9 +6,8 @@ const title = 'b-informed';
 
 <template>
   <div id="app">
-    <h1>{{ title }}</h1>
     <DefaultLayout>
-      <router-view/>
+      <router-view />
     </DefaultLayout>
   </div>
 </template>
